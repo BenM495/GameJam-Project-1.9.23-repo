@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Game_Controller : MonoBehaviour
 {
+    #region 
     // Start is called before the first frame update
     void Start()
     {
