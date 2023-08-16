@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18041828, g: 0.22587493, b: 0.3069989, a: 1}
+  m_IndirectSpecularColor: {r: 0.1804186, g: 0.22587568, b: 0.30699998, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -764,6 +764,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1772154838}
+  - component: {fileID: 1772154839}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -788,6 +789,43 @@ Transform:
   - {fileID: 1150255194}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1772154839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772154837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a287c1f614aa45b2a3bdae1bcb7cebc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  playerMovementSpeed: 0
+  playerWeapons: []
+  maxPlayerAttackCombo: 0
+  maxPlayerHealth: 0
+  currentPlayerHealth: 0
+  mob1MovementSpeed: 0
+  mob2MovementSpeed: 0
+  mob3MovementSpeed: 0
+  mob4MovementSpeed: 0
+  mob5MovementSpeed: 0
+  mob6MovementSpeed: 0
+  mob1AttackDamage: 0
+  mob2AttackDamage: 0
+  mob3AttackDamage: 0
+  mob4AttackDamage: 0
+  mob5AttackDamage: 0
+  mob6AttackDamage: 0
+  mob1MaxHealth: 0
+  mob2MaxHealth: 0
+  mob3MaxHealth: 0
+  mob4MaxHealth: 0
+  mob5MaxHealth: 0
+  mob6MaxHealth: 0
+  animator: {fileID: 0}
 --- !u!1 &2085568408
 GameObject:
   m_ObjectHideFlags: 0
