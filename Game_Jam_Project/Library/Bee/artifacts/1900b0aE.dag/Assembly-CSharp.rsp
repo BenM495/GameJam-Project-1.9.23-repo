@@ -366,6 +366,7 @@
 "Assets/Scripts/Enemy_Scripts/EnemyMovementManager.cs"
 "Assets/Scripts/Enemy_Scripts/EnemySpawnManager.cs"
 "Assets/Scripts/Game_Controller.cs"
+"Assets/Scripts/Menu_Scripts/MainMenuScript.cs"
 "Assets/Scripts/Player_Scripts/PlayerAttackManager.cs"
 "Assets/Scripts/Player_Scripts/PlayerHealthManager.cs"
 "Assets/Scripts/Player_Scripts/PlayerMovementManager.cs"

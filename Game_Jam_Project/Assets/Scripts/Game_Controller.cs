@@ -68,7 +68,15 @@ public class Game_Controller : MonoBehaviour
 
     #region Animator
     [Header("Animator")]
-    [SerializeField] public GameObject animator;
+    public GameObject animator;
+    [Space]
+    #endregion
+
+    #region Menu    
+    [Header("Menu")]
+    public GameObject startButton;
+    public GameObject quitButton;
+    
     #endregion
 
 
