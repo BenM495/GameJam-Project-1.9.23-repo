@@ -1,18 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenuScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    Game_Controller gameController;
+
     void Start()
     {
-        
+
+        gameController.startButton.SetActive(true);
+        gameController.quitButton.SetActive(true);
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void StartGame()
     {
-        
+
+        SceneManager.LoadScene("Loaded_Room");
+
+    }
+
+    public void QuitGame()
+    {
+
+        Application.Quit();
+
     }
 }

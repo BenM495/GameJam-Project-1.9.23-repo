@@ -1,11 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Game_Controller : MonoBehaviour
 {
 
     [SerializeField] GameObject gameManager;
+
+    #region Player
+
+    public GameObject Player;
 
     #region Player Movement
     [Space]
@@ -28,10 +34,15 @@ public class Game_Controller : MonoBehaviour
     [Space]
     #endregion
 
+    #endregion
+
     #region Terrain Management
     [Header("Terrain Management")]
+    public GameObject Terrain;
     [Space]
     #endregion
+
+    #region Mobs
 
     #region Mob Movement
     [Header("Mob Movement")]
@@ -66,6 +77,8 @@ public class Game_Controller : MonoBehaviour
     [Space]
     #endregion
 
+    #endregion
+
     #region Animator
     [Header("Animator")]
     public GameObject animator;
@@ -76,19 +89,16 @@ public class Game_Controller : MonoBehaviour
     [Header("Menu")]
     public GameObject startButton;
     public GameObject quitButton;
-    
     #endregion
 
 
-
-    // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(gameManager);
         DontDestroyOnLoad(animator);
+        DontDestroyOnLoad(Camera.main);
     }
 
-    // Update is called once per frame
     void Update()
     {
         
