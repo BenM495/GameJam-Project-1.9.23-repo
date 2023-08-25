@@ -13,12 +13,7 @@ public class Game_Controller : MonoBehaviour
 
     public GameObject Player;
 
-    #region Player Movement
-    [Space]
-    [Header("Player Movement")]
-    public float playerMovementSpeed;
-    [Space]
-    #endregion
+    
 
     #region Player Attacks
     [Header("Player Attack")]
@@ -103,4 +98,6 @@ public class Game_Controller : MonoBehaviour
     {
         
     }
+
+
 }
